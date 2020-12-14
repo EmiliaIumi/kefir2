@@ -1,0 +1,67 @@
+body{background-size: cover;
+  background-image: url("https://image.freepik.com/vetores-gratis/fundo-abstrato-rosa_1061-408.jpg");
+  background-position: center;
+  }
+#titulo1{height: 100px;
+padding-top: 40px;
+font-size: 50px;
+margin-bottom: 0px;}
+#titulo{height: 100px;
+padding-top: 40px;
+font-size: 50px;
+margin-bottom: 0px;
+}
+#titulo1:hover{
+  background-color: #a1479f;
+  }
+header a{text-decoration: none;}
+img{width: 100%;
+  height: 100%;}
+h1{color: white;
+  background-color: purple;
+  text-align: center;}
+h2{color:purple;}
+.botao{text-decoration: none;
+      color:purple;
+      border:2px solid purple;
+    padding: 5px 5px;
+  border-radius: 10px;
+  background-color: pink;
+  font-weight: bold;
+  transition: 0.5s;
+  }
+.botao:hover{color:white;
+  background-color:#d36d6c;
+}
+h3{color:pink;}
+h4{color: white;
+  text-align: center;}
+.grid{
+  display:grid;
+}
+main{margin: auto;
+  max-width: 40%;
+  color: #FFFFFF;
+  background-color:
+  rgba(50,50,50,0.4);
+  padding: 10px;}
+.cartao{padding: 22px;
+    border: 4px solid purple;
+    border-radius: 10px;}
+nav {   display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        border: 4px solid white;
+        margin: 10px;
+        border-radius: 10px;
+        grid-gap:10px;
+        grid-template-columns: auto;}
+nav a { color: purple;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        transition:0.5s}
+nav a:hover {text-decoration: none;
+        color: white;}
+#subtítulo-1{color: purple;}
